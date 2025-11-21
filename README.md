@@ -1,1 +1,1 @@
-# Coding-1
+# Renting an apartment - PYTHON
