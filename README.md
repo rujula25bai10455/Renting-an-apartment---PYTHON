@@ -32,7 +32,36 @@ INSTALLATION AND RUN GUIDE :
 1. Necessity :
    PYTHON 3: Ensure you have a functional version of Python(3.x) installed .
 2. Installation and set up:
-   Save the file   
+   Since there are no third-party libraries (like requests or numpy), the installation step is just saving the file .
+   SAVE THE FILE: Save the provided Python code exactly as the file name: minimal_predictor.py .
+   LOCATE THE FILE: Navigate to the folder where you saved minimal_predictor.py using your terminal or command prompt.
+3. Running the project:
+   Once you are in the correct directory, you can execute the script directly.
+   EXECUTE THE SCRIPT: Run the file using the python interpreter.
+   FOLLOW THE PROMPTS: The application will immediately start and prompt you for the required inputs (FR1):
+   Square footage (e.g., 950):
+   Bedrooms (e.g., 2.5):
+   Bathrooms (e.g., 2):
+   5-Digit pin code (e.g., 90210):
+   VIEW THE RESULT: After entering all valid inputs, the script will instantly calculate the prediction using the internal formula and display the estimated price, along with the component breakdown (FR3).
+   EXAMPLE the output
+
+   TESTING GUIDE:
+1. PREQUISITES AND SETUP:
+   Python: Ensure you have Python 3.x installed.
+   File: Ensure the script is saved as minimal_predictor.py
+   Dependencies: No dependencies are required outside of standard Python libraries.
+2. EXECUTION AND BASIC FLOW:
+   Run the script: Navigate to the files directory in your terminal and execute .
+   Expected Prompts: The application should immediately prompt you for the four required inputs: Square footage , Bedrooms , bathrooms, and zip code.
+   Expected output: After all inputs are entered, the script must display the final estimated price in bold and a section titled "FORMULA COMPONENTS" deatiling the calculation.
+3. Output verification checklist:
+   For a successful test run, ensure the following are present in the final console output:
+   The estimation output starts with the price in bold.
+   The final estimated price matches the expected calculated value.
+   The section"---FORMULA COMPONENTS---" is present and the values match the expeted coefficients.
+   The correct Local Multiplier value is shown (e.g., x1.50 or x1.00 ).       
+         
    
    
 
