@@ -1,4 +1,4 @@
-Project title - RENT PREDICT: Localized Apartment Rental Price Estimator             
+Project title - RENT PREDICT: Localized Apartment Rental Price Estimator                                                                                                                      
 Overview:
 This project, RENT-PREDICT(Localized Apartment Rental Price Estimator), is designed to provide a quick, objective, and data-drive estimate for the fair market rental price of an apartment based on its key physical characteristics and location .
 Brief overview is as follows:
